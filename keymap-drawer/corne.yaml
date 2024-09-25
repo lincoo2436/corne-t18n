@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - '-'
   - INSERT
-  - '{'
+  - PAGE UP
   - HOME
   - END
   - LEFT ARROW
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - LGUI
-  - '}'
+  - PAGE UP
   - BACKSPACE
   - DEL
   - '-'
@@ -102,8 +102,8 @@ layers:
   - LEFT WIN
   - '-'
   - '='
-  - '['
-  - ']'
+  - '&bracket'
+  - '&symbolbra'
   - '&mclicklayer'
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
