@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
   default:
-  - '&etkey'
+  - TAB
   - Q
   - W
   - E
@@ -59,7 +59,7 @@ layers:
   - {t: ▽, type: trans}
   - '-'
   - INSERT
-  - PG UP
+  - '{'
   - HOME
   - END
   - LEFT ARROW
@@ -71,7 +71,7 @@ layers:
   - {t: ▽, type: trans}
   - '='
   - LGUI
-  - PAGE DOWN
+  - '}'
   - BACKSPACE
   - DEL
   - '-'
@@ -104,11 +104,11 @@ layers:
   - '='
   - '['
   - ']'
-  - '&brace'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mclicklayer'
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - CAPSLOCK
   - TAB
   - F1
@@ -309,25 +309,25 @@ layers:
   - R
   - T
   - {t: ▽, type: trans}
+  - '&mkp LCLK'
+  - '&mkp RCLK'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+Ctl+ DEL
-  - TAB
+  - LEFT WIN
   - A
   - S
   - D
   - F
   - G
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ X
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LSHFT
-  - LEFT ALT
+  - {t: ▽, type: trans}
   - Z
   - X
   - C
@@ -339,10 +339,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LCTRL
-  - LEFT WIN
+  - LEFT ALT
   - SPACE
   - SPACE
-  - LEFT WIN
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [19, 20]
