@@ -48,6 +48,24 @@
 
             tapping-term-ms = <160>;
         };
+
+        pgch: pgch {
+            compatible = "zmk,behavior-tap-dance";
+            label = "PGCH";
+            #binding-cells = <0>;
+            bindings = <&kp PAGE_DOWN>, <&kp PG_UP>;
+
+            tapping-term-ms = <140>;
+        };
+
+        homeend: homeend {
+            compatible = "zmk,behavior-tap-dance";
+            label = "HOMEEND";
+            #binding-cells = <0>;
+            bindings = <&kp HOME>, <&kp END>;
+
+            tapping-term-ms = <140>;
+        };
     };
 
     keymap {
@@ -78,10 +96,10 @@
 
             label = "lower";
             bindings = <
-&trans  &kp N1     &kp NUMBER_2  &kp N3         &kp N4         &kp N5     &kp NUMBER_6    &kp N7        &kp N8              &kp N9     &kp N0             &kp DEL
-&trans  &kp MINUS  &kp INSERT    &kp PG_UP      &kp HOME       &kp END    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN            &kp RIGHT  &kp GRAVE          &kp RETURN
-&trans  &kp EQUAL  &kp LGUI      &kp PAGE_DOWN  &kp BACKSPACE  &kp DEL    &kp MINUS       &kp EQUAL     &kp LS(UNDERSCORE)  &kp PLUS   &kp DOUBLE_QUOTES  &kp SQT
-                                 &kp TILDE      &kp COLON      &trans     &kp ESCAPE      &kp HASH      &kp AT
+&trans  &kp N1     &kp NUMBER_2   &kp N3         &kp N4         &kp N5      &kp NUMBER_6    &kp N7        &kp N8              &kp N9     &kp N0             &kp DEL
+&trans  &kp MINUS  &kp INS        &brace         &pgch          &homeend    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN            &kp RIGHT  &kp GRAVE          &kp RETURN
+&trans  &kp EQUAL  &kp LG(GRAVE)  &kp LA(GRAVE)  &kp BACKSPACE  &kp DEL     &kp MINUS       &kp EQUAL     &kp LS(UNDERSCORE)  &kp PLUS   &kp DOUBLE_QUOTES  &kp SQT
+                                  &kp TILDE      &kp LEFT_WIN   &trans      &kp ESCAPE      &kp HASH      &kp AT
             >;
         };
 
@@ -112,7 +130,7 @@
             bindings = <
 &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF  &none             &rgb_ug RGB_TOG      &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4  &bt BT_CLR
 &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR  &ext_power EP_ON  &ext_power EP_OFF    &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 4  &none         &none
-&none            &none            &kp LG(GRAVE)    &kp LA(GRAVE)    &none             &kp K_SLEEP          &sys_reset     &out OUT_USB   &out OUT_BLE   &none          &none         &none
+&none            &none            &trans           &trans           &none             &kp K_SLEEP          &sys_reset     &out OUT_USB   &out OUT_BLE   &none          &none         &none
                                                    &trans           &trans            &tog 7               &tog 4         &tog 5         &tog 6
             >;
         };
