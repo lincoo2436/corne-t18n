@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {zmk_keyboard: corne}
 layers:
-  default:
+  base:
   - '&etkey'
   - Q
   - W
@@ -58,10 +58,10 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - '-'
-  - INSERT
-  - PG UP
-  - HOME
-  - END
+  - INS
+  - '&brace'
+  - '&pgch'
+  - '&homeend'
   - LEFT ARROW
   - UP ARROW
   - DOWN
@@ -70,18 +70,18 @@ layers:
   - RETURN
   - {t: ▽, type: trans}
   - '='
-  - LGUI
-  - PAGE DOWN
+  - Gui+`
+  - Alt+`
   - BACKSPACE
   - DEL
   - '-'
   - '='
-  - Sft+ _
+  - Sft+_
   - +
   - '"'
   - ''''
   - '~'
-  - ':'
+  - LEFT WIN
   - {type: held}
   - ESCAPE
   - '#'
@@ -156,8 +156,8 @@ layers:
   - ''
   - ''
   - ''
-  - Gui+ `
-  - Alt+ `
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - SLEEP
   - '&sys_reset'
@@ -313,16 +313,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+Ctl+ DEL
+  - Alt+Ctl+DEL
   - TAB
   - A
   - S
   - D
   - F
   - G
-  - Ctl+ C
-  - Ctl+ V
-  - Ctl+ X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+X
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
