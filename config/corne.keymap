@@ -55,7 +55,7 @@
             #binding-cells = <0>;
             bindings = <&kp PAGE_DOWN>, <&kp PG_UP>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <160>;
         };
 
         homeend: homeend {
@@ -64,7 +64,7 @@
             #binding-cells = <0>;
             bindings = <&kp HOME>, <&kp END>;
 
-            tapping-term-ms = <140>;
+            tapping-term-ms = <160>;
         };
     };
 
