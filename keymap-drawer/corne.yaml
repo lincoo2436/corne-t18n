@@ -105,12 +105,12 @@ layers:
   - '['
   - ']'
   - '&brace'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - CAPSLOCK
-  - TAB
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_UP'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - '&mouseclick'
+  - '&mousescroll'
   - F1
   - F2
   - F3
