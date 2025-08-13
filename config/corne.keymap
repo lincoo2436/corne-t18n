@@ -129,10 +129,10 @@
 
             label = "raise";
             bindings = <
-&kp ESC       &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT     &kp CARET       &kp AMPERSAND  &kp ASTERISK    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
-&kp LEFT_WIN  &kp MINUS        &kp EQUAL    &kp LBKT   &kp RBKT        &brace          &mmv MOVE_LEFT  &mmv MOVE_UP   &mmv MOVE_DOWN  &mmv MOVE_RIGHT       &mouseclick            &mousescroll
-&kp F1        &kp F2           &kp F3       &kp F4     &kp F5          &kp F6          &kp F7          &kp F8         &kp F9          &kp F10               &kp F11                &kp F12
-                                            &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT    &kp ENTER       &kp SPACE      &tog 2
+&kp ESC  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR       &kp PERCENT    &kp CARET       &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DEL
+&kp TAB  &kp MINUS        &kp EQUAL    &kp LBKT   &kp RBKT         &brace         &mmv MOVE_LEFT  &mmv MOVE_UP    &mmv MOVE_DOWN   &mmv MOVE_RIGHT       &mouseclick            &kp PG_UP
+&trans   &trans           &kp GRAVE    &mkp MCLK  &kp PRINTSCREEN  &kp INSERT     &kp BACKSPACE   &msc SCRL_LEFT  &msc SCRL_RIGHT  &msc SCRL_UP          &msc SCRL_DOWN         &kp PAGE_DOWN
+                                       &kp LCTRL  &kp LEFT_WIN     &kp ENTER      &trans          &kp SPACE       &tog 2
             >;
         };
 
