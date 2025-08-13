@@ -99,7 +99,7 @@ layers:
   - (
   - )
   - DEL
-  - LEFT WIN
+  - TAB
   - '-'
   - '='
   - '['
@@ -110,23 +110,23 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mouseclick'
-  - '&mousescroll'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
-  - F12
+  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '`'
+  - '&mkp MCLK'
+  - PRINTSCREEN
+  - INSERT
+  - BACKSPACE
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_DOWN'
+  - PAGE DOWN
   - LCTRL
-  - LEFT SHIFT
-  - LEFT ALT
-  - {t: ENTER, type: held}
+  - LEFT WIN
+  - ENTER
+  - {type: held}
   - SPACE
   - {t: raise, h: toggle}
   adjust:
