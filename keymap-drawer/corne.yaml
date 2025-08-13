@@ -130,32 +130,32 @@ layers:
   - SPACE
   - {t: raise, h: toggle}
   adjust:
-  - RGB BRI
-  - RGB SAI
-  - RGB HUI
-  - RGB EFF
-  - ''
-  - RGB TOG
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
   - BT CLR
-  - RGB BRD
-  - RGB SAD
-  - RGB HUD
-  - RGB EFR
-  - EP ON
-  - EP OFF
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
   - {t: BT DISC, h: '0'}
   - {t: BT DISC, h: '1'}
   - {t: BT DISC, h: '2'}
   - {t: BT DISC, h: '4'}
   - ''
   - ''
-  - ''
-  - ''
+  - LSHIFT
+  - LEFT ALT
   - Ctl+Alt+DEL
   - {t: ▽, type: trans}
   - ''
